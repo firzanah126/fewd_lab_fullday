@@ -189,17 +189,20 @@ div .img3{
 h4{
   font-size: 20px;
   color: white;
+  z-index: 999;
 }
 p4{
   font-size: 15px;
   color: white;
+  z-index: 999;
 }
 
 .images{
   position: relative;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 30px;
+  
 
 }
 div .img1{
@@ -207,6 +210,7 @@ div .img1{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
   
 }
 div .img2{
@@ -223,6 +227,8 @@ div .img3{
   justify-content: center;
  
 }
+
+
 .last{
   text-align: center;
   margin: 80px;
@@ -233,6 +239,7 @@ div .img3{
   text-align: center;
   padding: 20px;
 }
+
 
 
 
